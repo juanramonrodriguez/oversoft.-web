@@ -1,10 +1,13 @@
 import React from 'react'
+import { FooterContainer } from './footerStyle'
 
 const footer = () => {
   return (
-    <div>
+    <>
+     <FooterContainer>
       <h1>footer</h1>
-    </div>
+     </FooterContainer>
+    </>
   )
 }
 
